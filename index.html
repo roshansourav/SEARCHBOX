@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Distraction Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+            <h1 class="display-4">No Distraction search</h1>
+            <p class="lead">Search without seeing distracting thumbnails</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="jumbotron" style="background-color: red;">
+            <div class="input-group">
+                <input type="text" id="youtube" class="form-control" onkeydown="enterKey(this)"
+                    placeholder="Search on Youtube">
+                <div class="input-group-btn">
+                    <button class="btn btn-default" type="button" onclick="searchYoutube()"><i
+                            class="glyphicon glyphicon-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+<script src="bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</html>
